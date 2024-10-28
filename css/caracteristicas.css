@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffd44d;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.language a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.product-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.product-info .release-date,
+.product-info .location {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.product-info .description {
+    font-size: 1em;
+    margin-top: 20px;
+    color: #666;
+}
+
+.image-and-characteristics {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 20px;
+}
+
+.image-and-characteristics img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.show-characteristics-button {
+    background-color: #ffd44d;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+}
+
+.characteristics-box {
+    background-color: #ffd44d;
+    color: #333;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 0.9em;
+    display: none;
+}
+
+footer {
+    background-color: #ffd44d;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width: 569px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
